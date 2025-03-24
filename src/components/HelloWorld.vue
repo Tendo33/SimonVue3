@@ -15,10 +15,10 @@ const count = ref(0);
 <!-- 模板部分，定义了组件的 HTML 结构 -->
 <template>
   <!-- 显示传入的 msg prop 的值 -->
-  <h1>{{ msg }}</h1>
+  <h1 v-show="true">{{ msg }}</h1>
 
   <!-- 一个卡片区域 -->
-  <div class="card">
+  <div v-if="true" class="card">
     <!-- 按钮，点击时 count 的值会自增 -->
     <button type="button" @click="count++">count is {{ count }}</button>
     <!-- 提示信息，用户可以编辑 components/HelloWorld.vue 文件来测试热模块替换（HMR） -->
@@ -29,7 +29,7 @@ const count = ref(0);
   </div>
 
   <!-- 提示信息，包含一个链接，指向 Vue 官方快速入门指南 -->
-  <p>
+  <p v-if="true">
     Check out
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
       >create-vue</a
