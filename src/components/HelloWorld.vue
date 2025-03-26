@@ -27,7 +27,7 @@ const count = ref(0);
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
   </div>
-
+  <a-button type="primary">Primary Button</a-button>
   <!-- 提示信息，包含一个链接，指向 Vue 官方快速入门指南 -->
   <p v-if="true">
     Check out
