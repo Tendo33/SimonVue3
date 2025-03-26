@@ -1,16 +1,3 @@
-<!-- 使用 <script setup> 语法糖，这是 Vue3 中简化 Composition API 的写法 -->
-<script setup>
-// 从 Vue 中导入 ref 函数，用于创建响应式数据
-import { ref } from 'vue';
-
-// 使用 defineProps 定义组件的 props，这里定义了一个名为 msg 的 prop，类型为 String
-defineProps({
-  msg: String,
-});
-
-// 使用 ref 创建一个响应式变量 count，初始值为 0
-const count = ref(0);
-</script>
 
 <!-- 模板部分，定义了组件的 HTML 结构 -->
 <template>
@@ -47,6 +34,20 @@ const count = ref(0);
   <!-- 提示信息，提示用户可以点击 Vite 和 Vue 的 logo 了解更多 -->
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
+
+<!-- 使用 <script setup> 语法糖，这是 Vue3 中简化 Composition API 的写法 -->
+<script setup>
+// 从 Vue 中导入 ref 函数，用于创建响应式数据
+import { ref } from 'vue';
+
+// 使用 defineProps 定义组件的 props，这里定义了一个名为 msg 的 prop，类型为 String
+defineProps({
+  msg: String,
+});
+
+// 使用 ref 创建一个响应式变量 count，初始值为 0
+const count = ref(0);
+</script>
 
 <!-- 使用 scoped 样式，确保样式仅作用于当前组件 -->
 <style scoped>
