@@ -14,7 +14,7 @@
 		<a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite
 		starter
 	</p>
-	<!-- 提示信息，包含一个链接，指向 Vue 文档中关于 IDE 支持的部分 -->
+
 	<p>
 		Learn more about IDE Support for Vue in the
 		<a href="https://vuejs.org/guide/scaling-up/tooling.html#ide-support" target="_blank">Vue Docs Scaling up Guide</a>
